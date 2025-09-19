@@ -2,8 +2,10 @@
 
 A lightweight, TypeScript-first library for parsing and formatting time durations with human-readable strings.
 
-[![npm version](https://badge.fury.io/js/%40iscodex%2Fms-parser.svg)](https://badge.fury.io/js/%40iscodex%2Fms-parser)
-[![Build Status](https://github.com/iscodex/ms-parser/workflows/CI/badge.svg)](https://github.com/iscodex/ms-parser/actions)
+[![NPM version](https://img.shields.io/npm/v/@iscodex/ms-parser?color=32A9C3&labelColor=1B3C4A&label=npm&logo=npm)](https://www.npmjs.com/package/@iscodex/ms-parser)
+[![NPM downloads](https://img.shields.io/npm/dm/@iscodex/ms-parser?color=32A9C3&labelColor=1B3C4A&label=downloads&logo=npm)](https://www.npmjs.com/package/@iscodex/ms-parser)
+[![NPM License](https://img.shields.io/npm/l/@iscodex/ms-parser?color=32A9C3&labelColor=1B3C4A&label=license&logo=github)](https://www.npmjs.com/package/@iscodex/ms-parser)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/iscodex/ms-parser/ci.yml?color=32A9C3&labelColor=1B3C4A&label=CI&logo=github)](https://github.com/iscodex/ms-parser/actions)
 
 ## Features
 
