@@ -260,12 +260,3 @@ pnpm run type-check
 ## License
 
 MIT © [Francisco Luis Rios Vega](https://github.com/alckordev)
-
-## Changelog
-
-### 1.0.0
-
-- Initial release
-- TypeScript support
-- Full test coverage
-- Comprehensive documentation
