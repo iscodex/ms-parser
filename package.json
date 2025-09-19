@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "type": "module",
   "description": "A lightweight, TypeScript-first library for parsing and formatting time durations with human-readable strings",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
