@@ -4,7 +4,6 @@ A lightweight, TypeScript-first library for parsing and formatting time duration
 
 [![npm version](https://badge.fury.io/js/%40iscodex%2Fms-parser.svg)](https://badge.fury.io/js/%40iscodex%2Fms-parser)
 [![Build Status](https://github.com/iscodex/ms-parser/workflows/CI/badge.svg)](https://github.com/iscodex/ms-parser/actions)
-[![Coverage Status](https://coveralls.io/repos/github/iscodex/ms-parser/badge.svg?branch=main)](https://coveralls.io/github/iscodex/ms-parser?branch=main)
 
 ## Features
 
@@ -57,7 +56,6 @@ ms(2 * 60 * 1000, { long: true }); // "2 minutes"
 import { parse, format } from '@iscodex/ms-parser';
 
 // Parse only
-const milliseconds = parse('1h 30m'); // This example won't work, see limitations
 const milliseconds = parse('1.5h'); // 5400000
 
 // Format only
@@ -223,38 +221,43 @@ try {
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Run tests
-npm test
+pnpm test
 
 # Run tests in watch mode
-npm run test:watch
+pnpm run test:watch
 
 # Run tests with coverage
-npm run test:coverage
+pnpm run test:coverage
 
 # Build the package
-npm run build
+pnpm run build
 
 # Lint the code
-npm run lint
+pnpm run lint
 
 # Type check
-npm run type-check
+pnpm run type-check
 ```
+
+## Requirements
+
+- Node.js >= 20.0.0
+- Supports ES Modules
 
 ## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+3. Commit your changes (`git commit -m 'feat: add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
 ## License
 
-MIT © [Your Name](https://github.com/iscodex)
+MIT © [Francisco Luis Rios Vega](https://github.com/alckordev)
 
 ## Changelog
 

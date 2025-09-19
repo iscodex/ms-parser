@@ -266,6 +266,3 @@ function ms(
 
 // Export the main function as default
 export default ms;
-
-// Export individual functions for more granular usage
-export { ms };

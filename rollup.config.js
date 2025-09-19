@@ -32,6 +32,7 @@ export default [
       typescript({
         tsconfig: 'tsconfig.json',
         declaration: false,
+        declarationMap: false,
         outDir: 'dist',
       }),
     ],
