@@ -1,6 +1,6 @@
 {
   "name": "@iscodex/ms-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "A lightweight, TypeScript-first library for parsing and formatting time durations with human-readable strings",
   "main": "dist/index.cjs",
