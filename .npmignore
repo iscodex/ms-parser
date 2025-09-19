@@ -1,0 +1,39 @@
+# Source files
+src/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Development files
+.eslintrc.js
+.prettierrc
+jest.config.js
+rollup.config.js
+tsconfig.json
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.travis.yml
+.circleci/
+
+# Development dependencies
+node_modules/
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
